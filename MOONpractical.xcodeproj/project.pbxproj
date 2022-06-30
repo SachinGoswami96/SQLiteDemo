@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0379CED3286D7AE7000B1500 /* extensionFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379CED2286D7AE7000B1500 /* extensionFile.swift */; };
+		0379CED5286DB05C000B1500 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379CED4286DB05C000B1500 /* MainTableViewCell.swift */; };
 		03885768286CC34600A1EA1F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03885766286CC34600A1EA1F /* Person.swift */; };
 		03885769286CC34600A1EA1F /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03885767286CC34600A1EA1F /* DBHelper.swift */; };
 		038A4006286A1F44004FA004 /* Json4Swift_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A4004286A1F43004FA004 /* Json4Swift_Base.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0379CED2286D7AE7000B1500 /* extensionFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionFile.swift; sourceTree = "<group>"; };
+		0379CED4286DB05C000B1500 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		03885766286CC34600A1EA1F /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		03885767286CC34600A1EA1F /* DBHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
 		038A4004286A1F43004FA004 /* Json4Swift_Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Json4Swift_Base.swift; sourceTree = "<group>"; };
@@ -76,7 +80,9 @@
 				03F433E32869E79D00A4CC23 /* AppDelegate.swift */,
 				03F433E52869E79D00A4CC23 /* SceneDelegate.swift */,
 				03F433E72869E79D00A4CC23 /* ViewController.swift */,
+				0379CED2286D7AE7000B1500 /* extensionFile.swift */,
 				038A4005286A1F44004FA004 /* Data.swift */,
+				0379CED4286DB05C000B1500 /* MainTableViewCell.swift */,
 				03885767286CC34600A1EA1F /* DBHelper.swift */,
 				03885766286CC34600A1EA1F /* Person.swift */,
 				038A4004286A1F43004FA004 /* Json4Swift_Base.swift */,
@@ -225,10 +231,12 @@
 				038A4007286A1F44004FA004 /* Data.swift in Sources */,
 				03F433E82869E79D00A4CC23 /* ViewController.swift in Sources */,
 				03F433E42869E79D00A4CC23 /* AppDelegate.swift in Sources */,
+				0379CED5286DB05C000B1500 /* MainTableViewCell.swift in Sources */,
 				03885768286CC34600A1EA1F /* Person.swift in Sources */,
 				038A4006286A1F44004FA004 /* Json4Swift_Base.swift in Sources */,
 				03F433E62869E79D00A4CC23 /* SceneDelegate.swift in Sources */,
 				03885769286CC34600A1EA1F /* DBHelper.swift in Sources */,
+				0379CED3286D7AE7000B1500 /* extensionFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

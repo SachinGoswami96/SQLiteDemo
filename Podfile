@@ -10,6 +10,6 @@ target 'MOONpractical' do
   # Pods for MOONpractical
    pod 'Kingfisher'
 
-pod 'Alamofire'
+   pod 'Alamofire'
 
 end
