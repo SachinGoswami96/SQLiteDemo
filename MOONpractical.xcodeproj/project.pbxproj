@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03885768286CC34600A1EA1F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03885766286CC34600A1EA1F /* Person.swift */; };
+		03885769286CC34600A1EA1F /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03885767286CC34600A1EA1F /* DBHelper.swift */; };
+		038A4006286A1F44004FA004 /* Json4Swift_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A4004286A1F43004FA004 /* Json4Swift_Base.swift */; };
+		038A4007286A1F44004FA004 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038A4005286A1F44004FA004 /* Data.swift */; };
+		03CA46042869EEA5005EF27D /* AddProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CA46032869EEA5005EF27D /* AddProfileVC.swift */; };
+		03F433E42869E79D00A4CC23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F433E32869E79D00A4CC23 /* AppDelegate.swift */; };
+		03F433E62869E79D00A4CC23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F433E52869E79D00A4CC23 /* SceneDelegate.swift */; };
+		03F433E82869E79D00A4CC23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F433E72869E79D00A4CC23 /* ViewController.swift */; };
+		03F433EB2869E79D00A4CC23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F433E92869E79D00A4CC23 /* Main.storyboard */; };
+		03F433ED2869E79F00A4CC23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F433EC2869E79F00A4CC23 /* Assets.xcassets */; };
+		03F433F02869E79F00A4CC23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F433EE2869E79F00A4CC23 /* LaunchScreen.storyboard */; };
+		184FA00637827492D3763D80 /* Pods_MOONpractical.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE678EF9E22F0E7B88E18C97 /* Pods_MOONpractical.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03885766286CC34600A1EA1F /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		03885767286CC34600A1EA1F /* DBHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		038A4004286A1F43004FA004 /* Json4Swift_Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Json4Swift_Base.swift; sourceTree = "<group>"; };
+		038A4005286A1F44004FA004 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		03CA46032869EEA5005EF27D /* AddProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProfileVC.swift; sourceTree = "<group>"; };
+		03F433E02869E79D00A4CC23 /* MOONpractical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOONpractical.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F433E32869E79D00A4CC23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03F433E52869E79D00A4CC23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		03F433E72869E79D00A4CC23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03F433EA2869E79D00A4CC23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03F433EC2869E79F00A4CC23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03F433EF2869E79F00A4CC23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03F433F12869E79F00A4CC23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A5460C505C0AD5914F71F32 /* Pods-MOONpractical.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MOONpractical.release.xcconfig"; path = "Target Support Files/Pods-MOONpractical/Pods-MOONpractical.release.xcconfig"; sourceTree = "<group>"; };
+		1E68E1E66DE98FF641ECF72B /* Pods-MOONpractical.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MOONpractical.debug.xcconfig"; path = "Target Support Files/Pods-MOONpractical/Pods-MOONpractical.debug.xcconfig"; sourceTree = "<group>"; };
+		CE678EF9E22F0E7B88E18C97 /* Pods_MOONpractical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MOONpractical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03F433DD2869E79D00A4CC23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184FA00637827492D3763D80 /* Pods_MOONpractical.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03F433D72869E79D00A4CC23 = {
+			isa = PBXGroup;
+			children = (
+				03F433E22869E79D00A4CC23 /* MOONpractical */,
+				03F433E12869E79D00A4CC23 /* Products */,
+				2FDD15E688D15DC0D0AE31C9 /* Pods */,
+				1872DF9D272E2809F948D48D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03F433E12869E79D00A4CC23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03F433E02869E79D00A4CC23 /* MOONpractical.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03F433E22869E79D00A4CC23 /* MOONpractical */ = {
+			isa = PBXGroup;
+			children = (
+				03F433E32869E79D00A4CC23 /* AppDelegate.swift */,
+				03F433E52869E79D00A4CC23 /* SceneDelegate.swift */,
+				03F433E72869E79D00A4CC23 /* ViewController.swift */,
+				038A4005286A1F44004FA004 /* Data.swift */,
+				03885767286CC34600A1EA1F /* DBHelper.swift */,
+				03885766286CC34600A1EA1F /* Person.swift */,
+				038A4004286A1F43004FA004 /* Json4Swift_Base.swift */,
+				03CA46032869EEA5005EF27D /* AddProfileVC.swift */,
+				03F433E92869E79D00A4CC23 /* Main.storyboard */,
+				03F433EC2869E79F00A4CC23 /* Assets.xcassets */,
+				03F433EE2869E79F00A4CC23 /* LaunchScreen.storyboard */,
+				03F433F12869E79F00A4CC23 /* Info.plist */,
+			);
+			path = MOONpractical;
+			sourceTree = "<group>";
+		};
+		1872DF9D272E2809F948D48D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE678EF9E22F0E7B88E18C97 /* Pods_MOONpractical.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FDD15E688D15DC0D0AE31C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E68E1E66DE98FF641ECF72B /* Pods-MOONpractical.debug.xcconfig */,
+				1A5460C505C0AD5914F71F32 /* Pods-MOONpractical.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03F433DF2869E79D00A4CC23 /* MOONpractical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F433F42869E79F00A4CC23 /* Build configuration list for PBXNativeTarget "MOONpractical" */;
+			buildPhases = (
+				A7382265CB79F450DB42255C /* [CP] Check Pods Manifest.lock */,
+				03F433DC2869E79D00A4CC23 /* Sources */,
+				03F433DD2869E79D00A4CC23 /* Frameworks */,
+				03F433DE2869E79D00A4CC23 /* Resources */,
+				22BA98AB0E3540214C771912 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MOONpractical;
+			productName = MOONpractical;
+			productReference = 03F433E02869E79D00A4CC23 /* MOONpractical.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03F433D82869E79D00A4CC23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					03F433DF2869E79D00A4CC23 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 03F433DB2869E79D00A4CC23 /* Build configuration list for PBXProject "MOONpractical" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03F433D72869E79D00A4CC23;
+			productRefGroup = 03F433E12869E79D00A4CC23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03F433DF2869E79D00A4CC23 /* MOONpractical */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03F433DE2869E79D00A4CC23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F433F02869E79F00A4CC23 /* LaunchScreen.storyboard in Resources */,
+				03F433ED2869E79F00A4CC23 /* Assets.xcassets in Resources */,
+				03F433EB2869E79D00A4CC23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22BA98AB0E3540214C771912 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MOONpractical/Pods-MOONpractical-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MOONpractical/Pods-MOONpractical-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MOONpractical/Pods-MOONpractical-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7382265CB79F450DB42255C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MOONpractical-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03F433DC2869E79D00A4CC23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CA46042869EEA5005EF27D /* AddProfileVC.swift in Sources */,
+				038A4007286A1F44004FA004 /* Data.swift in Sources */,
+				03F433E82869E79D00A4CC23 /* ViewController.swift in Sources */,
+				03F433E42869E79D00A4CC23 /* AppDelegate.swift in Sources */,
+				03885768286CC34600A1EA1F /* Person.swift in Sources */,
+				038A4006286A1F44004FA004 /* Json4Swift_Base.swift in Sources */,
+				03F433E62869E79D00A4CC23 /* SceneDelegate.swift in Sources */,
+				03885769286CC34600A1EA1F /* DBHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03F433E92869E79D00A4CC23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03F433EA2869E79D00A4CC23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03F433EE2869E79F00A4CC23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03F433EF2869E79F00A4CC23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03F433F22869E79F00A4CC23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03F433F32869E79F00A4CC23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03F433F52869E79F00A4CC23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E68E1E66DE98FF641ECF72B /* Pods-MOONpractical.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MOONpractical/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Demo.com.MOONpractical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03F433F62869E79F00A4CC23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A5460C505C0AD5914F71F32 /* Pods-MOONpractical.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MOONpractical/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Demo.com.MOONpractical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03F433DB2869E79D00A4CC23 /* Build configuration list for PBXProject "MOONpractical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F433F22869E79F00A4CC23 /* Debug */,
+				03F433F32869E79F00A4CC23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F433F42869E79F00A4CC23 /* Build configuration list for PBXNativeTarget "MOONpractical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F433F52869E79F00A4CC23 /* Debug */,
+				03F433F62869E79F00A4CC23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03F433D82869E79D00A4CC23 /* Project object */;
+}
